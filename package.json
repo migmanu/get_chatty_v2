@@ -1,0 +1,14 @@
+{
+  "name": "get_chatty_v2",
+  "version": "1.0.0",
+  "description": "second version of simple chat app made to practise JS and nvim",
+  "main": "server.js",
+  "scripts": {
+    "test": "dev"
+  },
+  "author": "migmanu",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
