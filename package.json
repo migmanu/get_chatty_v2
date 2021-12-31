@@ -4,12 +4,18 @@
   "description": "second version of simple chat app made to practise JS and nvim",
   "main": "server.js",
   "scripts": {
-    "test": "dev"
+    "test": "dev",
+    "dev": "nodemon index.js"
   },
   "author": "migmanu",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
     "express": "^4.17.1",
+    "mongodb": "^4.2.2",
+    "mongoose": "^6.1.1",
     "nodemon": "^2.0.15",
     "socket.io": "^4.4.0"
   }
