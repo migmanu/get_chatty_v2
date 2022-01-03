@@ -1,3 +1,7 @@
+/*
+manages meesage schema with mongoose
+*/
+
 // require mongoose
 const mongoose = require("mongoose")
 

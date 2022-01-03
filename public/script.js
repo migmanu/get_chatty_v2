@@ -1,6 +1,10 @@
 console.log('Client side script running')
 
-const button = document.getElementById("testButton");
-button.addEventListener('click', function(event) {
-    console.log('button was clicked')
-})
+window.onload=function() {
+    var button = document.getElementById("testButton");
+    button.addEventListener('click', function(event) {
+        event.preventDefault()
+        console.log('the button has been clicked, beware...')
+    })
+}
+
